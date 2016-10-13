@@ -22,7 +22,7 @@ public class Picture
      */
     public Picture()
     {
-        // nothing to do... instance variables are automatically set to null
+        
     }
 
     /**
@@ -90,5 +90,13 @@ public class Picture
             roof.changeColor("green");
             sun.changeColor("yellow");
         }
+    }
+    
+      /**
+     * El sol se mueve cuando se invoca
+     */
+    public void moveSun()
+    {
+        sun.slowMoveVertical(100);
     }
 }
