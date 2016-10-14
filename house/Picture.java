@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Square campo;
+    private Person jaimito;
 
     /**
      * Constructor for objects of class Picture
@@ -103,5 +104,15 @@ public class Picture
         wall.changeColor("black");
         roof.changeColor("black");
         window.changeColor("whithe");
+    }
+    /**
+     * Entrar en casa
+     */
+    public void movePerson()
+    {
+        jaimito = new Person();
+        jaimito.moveHorizontal(-250);
+        jaimito.makeVisible();
+        jaimito.slowMoveHorizontal(100);
     }
 }
