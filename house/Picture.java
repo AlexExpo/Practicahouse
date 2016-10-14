@@ -98,5 +98,10 @@ public class Picture
     public void moveSun()
     {
         sun.slowMoveVertical(100);
+        campo.changeColor("black");
+        sun.changeColor("black");
+        wall.changeColor("black");
+        roof.changeColor("black");
+        window.changeColor("whithe");
     }
 }
