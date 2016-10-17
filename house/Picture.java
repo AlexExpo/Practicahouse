@@ -103,7 +103,8 @@ public class Picture
         sun.changeColor("black");
         wall.changeColor("black");
         roof.changeColor("black");
-        window.changeColor("whithe");
+        window.changeColor("white");
+        window.makeVisible();
     }
     /**
      * Entrar en casa
