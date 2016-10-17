@@ -111,7 +111,7 @@ public class Picture
      */
     public void movePerson()
     {
-        jaimito = new Person();
+        jaimito = new Person(); 
         jaimito.moveHorizontal(-250);
         jaimito.makeVisible();
         jaimito.slowMoveHorizontal(100);
